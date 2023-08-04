@@ -24,7 +24,7 @@ export default function FancyCards() {
               California, USA. It is not only an engineering marvel but also a
               symbol of the city and an iconic landmark recognized globally.
             </Text>
-            <Text style={styles.cardFooter}>12mins ago.</Text>
+            <Text style={styles.cardFooter}>12 mins ago.</Text>
           </View>
         </View>
       </ScrollView>
