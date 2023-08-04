@@ -10,12 +10,14 @@ import {
   View,
 } from 'react-native';
 import FlatCard from './components/FlatCard';
+import ElevatedCards from './components/ElevatedCards';
 
 const App = () => {
   return (
     <SafeAreaView>
       <ScrollView>
         <FlatCard />
+        <ElevatedCards />
       </ScrollView>
     </SafeAreaView>
   );
