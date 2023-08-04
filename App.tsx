@@ -13,6 +13,7 @@ import FlatCard from './components/FlatCard';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCards from './components/FancyCards';
 import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <ElevatedCards />
         <FancyCards />
         <ActionCard />
+        <ContactList />
       </ScrollView>
     </SafeAreaView>
   );
